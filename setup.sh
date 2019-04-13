@@ -22,7 +22,7 @@ docker volume create postgres_volume
 docker volume create postgres_log
 docker volume create postgres_lib
 
-### api는 database 이름이거나 user..(not sure) ###
+### api는 docker 이미지  ###
 cd ./config/postgres
 docker build -t api:postgres .
 docker run -d \
